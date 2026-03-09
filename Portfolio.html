@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title> mayi.-oi | Portfolio</title>
+    <link rel="icon" type="img-pfp" href="res/logo/git-pfp.png">
+    <link rel="stylesheet" href="res/font/font.html">
+    <link rel="stylesheet" href="Portfolio.css">
+    <link rel="stylesheet" href="res/font/font.css">
+</head>
+<body>
+    <audio id="Audiolist" src="res/hinterground musik/Evan Fong - This Ones For Me (Official Audio).mp3" preload="auto" loop></audio>
+
+    <nav>
+    <ul class="zurück">
+       <!-- <button onclick="window.location.href='hauptseite.html'" title="Bis blad!">
+            <img alt="back" src="res/icon/home_26dp_FFFFFF_FILL1_wght400_GRAD0_opsz24.svg">
+        </button> -->
+        <li class="button-audio">
+            <button onclick="togglePLayPause()">
+                <img src="res/icon/music_note_26dp_FFFFFF_FILL1_wght400_GRAD0_opsz24.svg">
+            </button>
+            <button onclick="myFunction()">
+                <img src="res/icon/sunny_26dp_FFFFFF_FILL1_wght400_GRAD0_opsz24.svg">
+            </button>
+        </li>
+    </ul>
+    </nav>
+
+    <div class="title">
+        <img src="res/logo/git-pfp.png" alt="img-pfp">
+        <h1>mayi.-oi</h1>
+        <p> Ein Anfänger web entwicker
+        <br>
+        <br>Erstellt einfach design aber schön, Mobile freundlich mit modern tech.
+        <br>Lesst unsere Fehler zur Verbessert! (ich glaube lol)</p>
+        <div class="mailto">
+            <button onclick="document.getElementById('kontakt').scrollIntoView({behavior: 'smooth'})">Le contact</button>
+            <button onclick="document.getElementById('web').scrollIntoView({behavior: 'smooth'})">Meine Projekt!</button>
+            <p style="font-size: 14px;"><i>scroll down!</i></p>
+        </div>
+    </div>
+
+    <!-- <div class="down">
+        <img alt="dowm" src="res/icon/arrow_downward_26dp_FFFFFF_FILL1_wght400_GRAD0_opsz24.svg">
+    </div> -->
+    <br>
+    <br>
+    <div class="Infomation">
+        <h1>Über mir!</h1>
+        <div class="über" id='web'>
+            <p>Ich bin ein selbst lernen Web Entwickler. Anfang mit HTML, CSS und JavaScript seit 2023.</p>
+        </div>
+        <br>
+        <br>
+        <h1>Projekte</h1>
+        <div class="web">
+            <h2>mayi.-oi portfoilo [Du bist hier]</h2>
+            <p>mayi.-oi portfoilo ist ein website du aktiv schaust - baut mit modernen web design, gutes leistungen und einfach design.</p>
+            <button onclick="window.location.href='https://github.com/mayi-oi/mayi.-oi_website'">source code</button>
+        </div>
+        <br>
+        <br>
+        <div class="jai">
+            <h2>bookish waffle [In Progress]</h2>
+            <p>Ein benutzterdefiniertes Profil für Janitor ai! - Android ui-like, simple und klar line of codes und Mobile freundlich!<p>
+            <!-- <button onclick="window.location.href='https://github.com/mayi-oi/bookish-waffle'">source code</button> -->
+        </div>
+        <br>
+        <br>
+        <h1>Zeitline</h1>
+        <div class="timeline">
+            <h2>Aktulle Zeitpunkt [2025 - Aktulle]</h2>
+            <p><i>Da Zeit nicht beschrieben komm bald wieder!</i></p>
+
+            <h2>Wiederholt web entwicklerung auf anfang [2025 - 2026]</h2>
+            <p>2 Jahre später hat neue Laptop (Chromebook laptop auf Linux) dann wiederholt ganze web development auf sktrech.</p>
+            
+            <h2>Anfangen web entwicklerung [2023 - 2024]</h2>
+            <p>Angefangen lernen web entwicklerung durch selbst studiret (Youtube und Dokumentation). Lernt bisschen core buliding blocks: HTML, CSS und klein Projekt bevor verlassen web development für Zwei Jahre.</p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <section class="kontakt" id="kontakt">
+        <h2><u>le contact</u></h2>
+        <p>Hast du eine Fragen?, lass uns chatten!
+        <br> sender by <strong><u>Web3forms</u></strong></p>
+
+        <div class="k-form">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="accss-key" value="ad83f555-0cef-4f23-b4e3-93bffe12f4ee">
+            <input type="hidden" name="apikey" value="ad83f555-0cef-4f23-b4e3-93bffe12f4ee">
+
+            <label for="name">Name</label>
+            <input type="text" name="name" placeholder="Deine name...">
+
+            <label for="mail">E-mail</label>
+            <input type="text" name="mail" placeholder="Deine E-mail...">
+
+            <label for="thema">Subject</label>
+            <textarea id="thema" name="Subject" placeholder="Schreibt deine Fragen..." style="height: 100px;"></textarea>
+
+            <input type="hidden" name="redirect" value="https://web3forms.com/success">
+            <input type="submit" value="Frage senden">
+            
+        </form>
+    </section>
+
+    <br>
+    <footer>Erstellt von mayi.oi 2026
+        <br> Quelle: Evan Fong - This Ones for Me
+        <br> Pixiv: https://www.pixiv.net/en/artworks/141130064
+    </footer>
+
+    <script>
+        // Initialize theme on page load
+        window.addEventListener('DOMContentLoaded', function() {
+            const savedTheme = localStorage.getItem('theme') || 'dark';
+            setTheme(savedTheme);
+        });
+
+        function myFunction() {
+            const element = document.body;
+            const currentTheme = element.classList.contains('light-mode') ? 'light' : 'dark';
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            setTheme(newTheme);
+        }
+
+        function setTheme(theme) {
+            const element = document.body;
+            const themeBtn = document.querySelector('button[onclick="myFunction()"]');
+            const themeImg = themeBtn.querySelector('img');
+
+            if (theme === 'light') {
+                element.classList.add('light-mode');
+                element.classList.remove('dark-mode');
+                themeImg.src = 'res/icon/moon_stars_26dp_FFFFFF_FILL1_wght400_GRAD0_opsz24.svg';
+                themeImg.alt = 'Dunkelm Modus';
+            } else {
+                element.classList.remove('light-mode');
+                element.classList.add('dark-mode');
+                themeImg.src = 'res/icon/sunny_26dp_FFFFFF_FILL1_wght400_GRAD0_opsz24.svg';
+                themeImg.alt = 'Hellem Modus';
+            }
+            localStorage.setItem('theme', theme);
+        }
+
+        function togglePLayPause() {
+            const audio = document.getElementById("Audiolist");
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        }
+
+    </script>
+
+</body>
+</html>

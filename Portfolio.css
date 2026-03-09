@@ -1,0 +1,598 @@
+body {
+    background-color: #1d2431;
+    padding-top: 70px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+    transition: all 0.3s ease;
+}
+
+.light-mode .title {
+    background-color: #f0f0f0;
+}
+
+.light-mode .title h1 {
+    color: #1d2431;
+}
+
+.light-mode .title p {
+    color: #000000;
+}
+
+.light-mode .down img {
+    background-color: #00000075;
+    border-radius: 18px;
+}
+
+.light-mode .Infomation {
+    background-color: #f0f0f0;
+}
+
+.light-mode .über {
+    background-color: #dfdfdf;
+}
+
+.light-mode .web {
+    background-color: #dfdfdf;
+}
+
+.light-mode .web button {
+    color: #000000b0;
+}
+
+.light-mode .web button:hover {
+    color: #000000;
+}
+
+.light-mode .jai {
+    background-color: #dfdfdf;
+}
+
+.light-mode .jai button {
+    color: #000000b0;
+}
+
+.light-mode .jai button:hover {
+    color: #000000;
+}
+
+.light-mode .timeline {
+    background-color: #dfdfdf;
+}
+
+.light-mode .kontakt {
+    background-color: #f0f0f0;
+}
+
+.light-mode .k-form {
+    background-color: #dfdfdf;
+}
+
+.dark-mode {
+    background-color: #1d2431;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.dark-mode .title {
+    background-color: #00000075;
+}
+
+.dark-mode .title h1 {
+    color: #ffffff;
+}
+
+.dark-mode .title p {
+    color: #ffffff;
+}
+
+.dark-mode .down img {
+    background-color: #00000000;
+}
+
+nav {    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+.zurück {
+    display: flex;
+    gap: 3px;
+    margin: 0;
+    padding: 0;
+}
+
+.zurück button {
+    scale: 0.85;
+    width: 50px;
+    height: 50px;
+    transition: all 0.57s ease;
+    
+    background-color: #0000005e;
+    backdrop-filter: blur(4px);
+    border: solid 2px #ffffff;
+    border-radius: 18px;
+}
+
+.zurück button:hover {
+    background-color: #0d192dc5;
+    border-radius: 50px;
+    transform: scale(0.95);
+}
+
+.zurück img {
+    width: 70%;
+}
+
+.zurück > li {
+    list-style: none;
+}
+
+.title {
+    background-color: #00000075;
+    border-radius: 18px;
+    padding: 22px;
+}
+
+.title img {
+    border: solid;
+    border-radius: 50%;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18svw;
+    height: auto;
+}
+
+
+.title h1 {
+    color: #ffffff;
+    font-family: Google sans;
+    font-size: 44px;
+
+    /* 
+    position: fixed;
+    display: flex;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    align-items: center;
+    justify-content: center;
+    */
+
+    transition: all 0.4s ease;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.title h1:hover {
+    color: #64a2ff;
+    background-color: #ffffff;
+}
+
+.title p {
+    color: #ffffff;
+    font-family: Google sans;
+    font-size: 18px;
+    
+    text-align: center;
+}
+
+.mailto {
+    text-align: center;
+}
+
+.mailto button {
+    position: relative;
+
+    color: #000000;
+    font-family: Google sans;
+    font-size: 18px;
+
+    border: solid #9888ff 2px;
+    border-radius: 14px;
+    padding: 10px;
+    transition: all 0.34s ease;
+}
+
+.mailto button:hover {
+    color: #ffffff;
+    background-color: #9888ff;
+    border: solid 2px #ffffff;
+}
+
+
+.Infomation {
+    background-color: #00000075;
+    border-radius: 18px;
+    padding: 22px;
+    gap: 8px;
+}
+
+.Infomation h1 {
+    font-family: Google sans;
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+.Infomation p {
+    font-family: Google sans;
+}
+
+.über {
+    background-color: #000000a1;
+    border-radius: 14px;
+    padding: 18px;
+
+    text-align: center;
+}
+
+.web {
+    padding: 18px;
+    border-radius: 14px;
+    background-color: #000000a1;
+    transition: all 0.35s ease;
+}
+
+.web:hover {
+    border: solid 2px #4168a3;
+    background-color: #6ea7fd;
+    color: #ffffff;
+    transform: scale(1.01);
+}
+
+.web h2 {
+    font-family: Fredoka;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.web p {
+    font-family: Google sans;
+}
+
+.web button {
+    color: #ffffffb0;
+    font-family: Google sans;
+    font-size: 15px;
+    
+    transition: all 0.3s ease;
+    padding: 8px;
+    background-color: transparent;
+    border: none;
+}
+
+.web button:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.jai {
+    padding: 18px;
+    border-radius: 14px;
+    background-color: #000000a1;
+    transition: all 0.35s ease;
+}
+
+.jai:hover {
+    border:solid 2px #5e265b ;
+    background-color: #d566eb;
+    color: #ffffff;
+    transform: scale(1.01);
+}
+
+.jai h2 {
+    font-family: Fredoka;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.jai p {
+    font-family: Google sans;
+}
+
+.jai button {
+    color: #ffffffb0;
+    font-family: Google sans;
+    font-size: 15px;
+    
+    transition: all 0.3s ease;
+    padding: 8px;
+    background-color: transparent;
+    border: none;
+}
+
+.jai button:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.timeline {
+    padding: 18px;
+    border-radius: 14px;
+    background-color: #000000a1;
+}
+
+.timeline h2 {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.kontakt {
+    font-family: 'Google sans';
+    font-size: 24px;
+    text-align: center;
+
+    background-color: #00000075;
+    border-radius: 18px;
+    padding: 22px;
+}
+
+.kontakt p {
+    font-size: 18px;
+}
+
+.k-form {
+    background-color: #000000a1;
+    border-radius: 14px;
+    padding: 18px;
+
+    font-size: 16px;
+    text-align: left;
+
+    transition: all 0.4s ease;
+}
+
+.k-form:hover {
+    transform: scale(1.01);
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    
+    font-family: Fredoka;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    
+    background-color: #d4d4d4;
+    box-sizing: border-box;
+    border: solid 2.5px #8b8b8b;
+    border-radius: 8px;
+
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    color: #ffffff;
+    font-family: 'Nunito';
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: underline;
+
+    background-color: #5c9dff;
+    border-radius: 8px;
+    border: solid 2px #4576be;
+
+    padding: 12px;
+    transition: all 0.34s ease;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #4a93ff;
+    scale: 1.05;
+}
+
+footer {
+    font-family: Google sans;
+    text-align: center;
+
+    padding: 8px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding: auto;
+    width: 4%;
+    height: auto;
+}
+
+/* Responsive Design */
+
+/* Tablet and Mobile Styles */
+@media (max-width: 768px) {
+    body {
+        padding-top: 60px;
+    }
+
+    nav {
+        padding: 6px 10px;
+    }
+
+    .zurück button {
+        width: 40px;
+        height: 40px;
+        scale: 0.8;
+    }
+
+    .zurück img {
+        width: 80%;
+    }
+
+    .title {
+        padding: 14px;
+        border-radius: 12px;
+    }
+
+    .title img {
+        width: 20vw;
+    }
+
+    .title h1 {
+        font-size: 28px;
+    }
+
+    .title p {
+        font-size: 14px;
+    }
+
+    .mailto button {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    .Infomation {
+        padding: 14px;
+        border-radius: 12px;
+    }
+
+    .Infomation h1 {
+        font-size: 20px;
+    }
+
+    .über, .web, .jai, .timeline, .k-form {
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .web h2, .jai h2, .timeline h2 {
+        font-size: 18px;
+    }
+
+    .kontakt {
+        padding: 14px;
+        border-radius: 12px;
+    }
+
+    .kontakt h2 {
+        font-size: 18px;
+    }
+
+    .kontakt p {
+        font-size: 14px;
+    }
+
+    input[type=text], select, textarea {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    input[type=submit] {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 480px) {
+    body {
+        padding-top: 50px;
+    }
+
+    nav {
+        padding: 4px 8px;
+    }
+
+    .zurück {
+        gap: 2px;
+    }
+
+    .zurück button {
+        width: 35px;
+        height: 35px;
+        scale: 0.75;
+    }
+
+    .zurück img {
+        width: 90%;
+    }
+
+    .title {
+        padding: 10px;
+    }
+
+    .title img {
+        width: 25vw;
+    }
+
+    .title h1 {
+        font-size: 22px;
+    }
+
+    .title p {
+        font-size: 12px;
+    }
+
+    .mailto button {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .Infomation {
+        padding: 10px;
+    }
+
+    .Infomation h1 {
+        font-size: 18px;
+    }
+
+    .über, .web, .jai, .timeline, .k-form {
+        padding: 8px;
+    }
+
+    .web h2, .jai h2, .timeline h2 {
+        font-size: 16px;
+    }
+
+    .kontakt {
+        padding: 10px;
+    }
+
+    .kontakt h2 {
+        font-size: 16px;
+    }
+
+    .kontakt p {
+        font-size: 12px;
+    }
+
+    input[type=text], select, textarea {
+        font-size: 11px;
+        padding: 6px;
+    }
+
+    input[type=submit] {
+        font-size: 11px;
+        padding: 6px;
+    }
+
+    footer {
+        font-size: 11px;
+    }
+}
