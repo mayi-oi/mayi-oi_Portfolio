@@ -134,3 +134,44 @@
     font-weight: 700;
     font-display: swap;
 }
+
+/* Outfit font */
+@font-face {
+    font-family: 'Outfit';
+    src: url('Outfit/Outfit-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('Outfit/Outfit-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('Outfit/Outfit-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('Outfit/Outfit-SemiBold.ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('Outfit/Outfit-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}

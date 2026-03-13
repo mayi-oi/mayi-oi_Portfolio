@@ -161,7 +161,8 @@ nav {
 
 .title h1 {
     color: #ffffff;
-    font-family: 'quicksand';
+    font-family: 'Outfit';
+    font-weight: 500;
     font-size: 44px;
 
     /* 
@@ -186,7 +187,7 @@ nav {
 
 .title p {
     color: #ffffff;
-    font-family: 'quicksand';
+    font-family: 'Outfit';
     font-size: 18px;
     
     text-align: center;
@@ -200,7 +201,7 @@ nav {
     position: relative;
 
     color: #000000;
-    font-family: 'quicksand';
+    font-family: 'Outfit';
     font-size: 18px;
 
     border: solid #9888ff 2px;
@@ -224,13 +225,14 @@ nav {
 }
 
 .Infomation h1 {
-    font-family: 'quicksand';
+    font-family: 'Outfit';
     font-size: 28px;
+    font-weight: 500;
     text-decoration: underline;
 }
 
 .Infomation p {
-    font-family: 'quicksand';
+    font-family: 'Outfit';
 }
 
 .über {
@@ -245,6 +247,7 @@ nav {
     padding: 18px;
     border-radius: 14px;
     background-color: #000000a1;
+    border-radius: solid 2px;
     transition: all 0.35s ease;
 }
 
@@ -253,6 +256,11 @@ nav {
     background-color: #6ea7fd;
     color: #ffffff;
     transform: scale(1.01);
+    transition: all 0.2s ease;
+}
+
+.web:active {
+    background-color: #ffffff;
 }
 
 .web h2 {
@@ -262,12 +270,12 @@ nav {
 }
 
 .web p {
-    font-family: 'quicksand';
+    font-family: 'Outfit';
 }
 
 .web button {
     color: #ffffffb0;
-    font-family: 'quicksand';
+    font-family: 'Outfit';
     font-size: 15px;
     
     transition: all 0.3s ease;
@@ -293,6 +301,11 @@ nav {
     background-color: #d566eb;
     color: #ffffff;
     transform: scale(1.01);
+    transition: all 0.2s ease;
+}
+
+.jai:active {
+    background-color: #ffffff;
 }
 
 .jai h2 {
@@ -302,10 +315,10 @@ nav {
 }
 
 .jai p {
-    font-family: 'quicksand';
+    font-family: Google sans;
 }
 
-/* .jai button {
+.jai button {
     color: #ffffffb0;
     font-family: Google sans;
     font-size: 15px;
@@ -314,7 +327,7 @@ nav {
     padding: 8px;
     background-color: transparent;
     border: none;
-} */
+}
 
 .jai button:hover {
     color: #ffffff;
@@ -325,6 +338,11 @@ nav {
     padding: 18px;
     border-radius: 14px;
     background-color: #000000a1;
+    transition: all 0.3s ease;
+}
+
+.timeline:hover {
+    transform: scale(1.01);
 }
 
 .timeline h2 {
@@ -334,13 +352,17 @@ nav {
 }
 
 .kontakt {
-    font-family: 'quicksand';
+    font-family: 'Outfit';
     font-size: 24px;
     text-align: center;
 
     background-color: #00000075;
     border-radius: 18px;
     padding: 22px;
+}
+
+.kontakt h2 {
+    font-weight: 500;
 }
 
 .kontakt p {
@@ -355,7 +377,7 @@ nav {
     font-size: 16px;
     text-align: left;
 
-    transition: all 0.4s ease;
+    transition: all 0.3s ease;
 }
 
 .k-form:hover {
@@ -403,7 +425,7 @@ input[type=submit]:hover {
 }
 
 footer {
-    font-family: 'quicksand';
+    font-family: 'Outfit';
     text-align: center;
 
     padding: 8px;
