@@ -1,3 +1,5 @@
+/* Die Schriftart center 9000 */
+
 /* Fredoka */
 @font-face {
     font-family: 'Fredoka';
@@ -94,5 +96,41 @@
     src: url('Nunito/Nunito-Bold.ttf');
     font-weight: 700;
     font-style: normal;
+    font-display: swap;
+}
+
+/* Quicksand font */
+@font-face {
+    font-family: 'quicksand';
+    src: url(quicksand/Quicksand-Light.ttf);
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'quicksand';
+    src: url(quicksand/Quicksand-Regular.ttf);
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'quicksand';
+    src: url(quicksand/Quicksand-Medium.ttf);
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'quicksand';
+    src: url(quicksand/Quicksand-SemiBold.ttf);
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'quicksand';
+    src: url(quicksand/Quicksand-Bold.ttf);
+    font-weight: 700;
     font-display: swap;
 }

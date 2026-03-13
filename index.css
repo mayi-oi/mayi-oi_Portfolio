@@ -161,7 +161,7 @@ nav {
 
 .title h1 {
     color: #ffffff;
-    font-family: Google sans;
+    font-family: 'quicksand';
     font-size: 44px;
 
     /* 
@@ -186,7 +186,7 @@ nav {
 
 .title p {
     color: #ffffff;
-    font-family: Google sans;
+    font-family: 'quicksand';
     font-size: 18px;
     
     text-align: center;
@@ -200,7 +200,7 @@ nav {
     position: relative;
 
     color: #000000;
-    font-family: Google sans;
+    font-family: 'quicksand';
     font-size: 18px;
 
     border: solid #9888ff 2px;
@@ -224,13 +224,13 @@ nav {
 }
 
 .Infomation h1 {
-    font-family: Google sans;
+    font-family: 'quicksand';
     font-size: 28px;
     text-decoration: underline;
 }
 
 .Infomation p {
-    font-family: Google sans;
+    font-family: 'quicksand';
 }
 
 .über {
@@ -262,12 +262,12 @@ nav {
 }
 
 .web p {
-    font-family: Google sans;
+    font-family: 'quicksand';
 }
 
 .web button {
     color: #ffffffb0;
-    font-family: Google sans;
+    font-family: 'quicksand';
     font-size: 15px;
     
     transition: all 0.3s ease;
@@ -302,10 +302,10 @@ nav {
 }
 
 .jai p {
-    font-family: Google sans;
+    font-family: 'quicksand';
 }
 
-.jai button {
+/* .jai button {
     color: #ffffffb0;
     font-family: Google sans;
     font-size: 15px;
@@ -314,7 +314,7 @@ nav {
     padding: 8px;
     background-color: transparent;
     border: none;
-}
+} */
 
 .jai button:hover {
     color: #ffffff;
@@ -334,7 +334,7 @@ nav {
 }
 
 .kontakt {
-    font-family: 'Google sans';
+    font-family: 'quicksand';
     font-size: 24px;
     text-align: center;
 
@@ -384,7 +384,7 @@ input[type=text], select, textarea {
 input[type=submit] {
     color: #ffffff;
     font-family: 'Nunito';
-    font-weight: 500;
+    font-weight: 600;
     font-size: 15px;
     text-decoration: underline;
 
@@ -403,7 +403,7 @@ input[type=submit]:hover {
 }
 
 footer {
-    font-family: Google sans;
+    font-family: 'quicksand';
     text-align: center;
 
     padding: 8px;
