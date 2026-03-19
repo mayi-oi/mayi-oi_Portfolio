@@ -92,6 +92,14 @@ body {
     color: #ffffff;
 }
 
+.dark-mode .web:hover {
+    border: solid 2px #94bfff;
+}
+
+.dark-mode .jai:hover {
+    border: soler 2px #ea87f5;
+}
+
 .dark-mode .down img {
     background-color: #00000000;
 }
