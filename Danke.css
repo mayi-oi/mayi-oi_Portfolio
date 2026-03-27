@@ -1,0 +1,47 @@
+body {
+    background-color: #1e2720;
+}
+
+.container {
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    padding: 22px;
+    text-align: center;
+}
+
+.container img {
+    height: 80px;
+}
+.container h2 {
+    color: #ffffff;
+    font-family: Fredoka;
+    font-size: 38px;
+    text-decoration: underline;
+}
+
+.container p {
+    color: #ffffff;
+    font-family: Fredoka;
+    font-size: 20px;
+}
+
+.container button {
+    border: solid 2.5px #5fdb7a;
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 14px;
+
+    color: #ffffff;
+    font-family: fredoka;
+    font-size: 16px;
+
+    transition: all 0.37s ease;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #5fdb7a;
+    border: solid 2.5px #285a33;
+    padding: 18px;
+}
