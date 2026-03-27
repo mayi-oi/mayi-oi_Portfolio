@@ -4,5 +4,5 @@ Wilkommen zur <strong>mayi.-oi Portfolio!</strong>. Diese Projekt sind open sour
 <br> was "simple" ist simple design und einfach zur navigieren einfach scroll down!
 
 ## Git clone
-`https://github.com/mayi-oi/waffle-Portfolio.git`
+`git clone https://github.com/mayi-oi/waffle-Portfolio.git`
 <p align="center"><br> mayi.-oi 2026 </p>
