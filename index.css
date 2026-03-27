@@ -38,15 +38,15 @@ body {
     background-color: #dfdfdf;
 }
 
-.light-mode .web {
+.light-mode .Portfolio {
     background-color: #dfdfdf;
 }
 
-.light-mode .web button {
+.light-mode .Portfolio button {
     color: #000000b0;
 }
 
-.light-mode .web button:hover {
+.light-mode .Portfolio button:hover {
     color: #000000;
 }
 
