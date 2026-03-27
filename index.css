@@ -116,14 +116,14 @@ nav {
     z-index: 1000;
 }
 
-.zurück {
+.nav-action {
     display: flex;
     gap: 3px;
     margin: 0;
     padding: 0;
 }
 
-.zurück button {
+.nav-action button {
     scale: 0.85;
     width: 50px;
     height: 50px;
@@ -135,17 +135,17 @@ nav {
     border-radius: 18px;
 }
 
-.zurück button:hover {
+.nav-action button:hover {
     background-color: #0d192dc5;
     border-radius: 50px;
     transform: scale(0.95);
 }
 
-.zurück img {
+.nav-action img {
     width: 70%;
 }
 
-.zurück > li {
+.nav-action > li {
     list-style: none;
 }
 
@@ -172,16 +172,6 @@ nav {
     font-family: 'Outfit';
     font-weight: 500;
     font-size: 44px;
-
-    /* 
-    position: fixed;
-    display: flex;
-    top: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    align-items: center;
-    justify-content: center;
-    */
 
     transition: all 0.4s ease;
     text-decoration: underline;
@@ -251,7 +241,7 @@ nav {
     text-align: center;
 }
 
-.web {
+.Portfolio {
     padding: 18px;
     border-radius: 14px;
     background-color: #000000a1;
@@ -259,7 +249,7 @@ nav {
     transition: all 0.35s ease;
 }
 
-.web:hover {
+.Portfolio:hover {
     border: solid 2px #4168a3;
     background-color: #6ea7fd;
     color: #ffffff;
@@ -267,21 +257,21 @@ nav {
     transition: all 0.2s ease;
 }
 
-.web:active {
+.Portfolio:active {
     background-color: #ffffff;
 }
 
-.web h2 {
+.Portfolio h2 {
     font-family: Fredoka;
     font-weight: 500;
     font-size: 24px;
 }
 
-.web p {
+.Portfolio p {
     font-family: 'Outfit';
 }
 
-.web button {
+.Portfolio button {
     color: #ffffffb0;
     font-family: 'Outfit';
     font-size: 15px;
@@ -292,7 +282,7 @@ nav {
     border: none;
 }
 
-.web button:hover {
+.Portfolio button:hover {
     color: #ffffff;
     text-decoration: underline;
 }
